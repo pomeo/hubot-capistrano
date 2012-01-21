@@ -1,3 +1,20 @@
+# run capistrano in console and send back output
+#
+# Currently all todos are added to the Inbox.
+#
+# Environment variables:
+#   HUBOT_CAP - directory where the config files, example https://github.com/pomeo/hubot-capistrano/example.rb
+#
+# cap example deploy:setup
+# cap example deploy:update
+# cap example -T
+#
+# where 'example' HUBOT_CAP/example.rb  
+#
+# need https://github.com/pgte/carrier for line by line output
+# npm install carrier
+#
+    
 spawn = require('child_process').spawn
 carrier = require('carrier')
 
