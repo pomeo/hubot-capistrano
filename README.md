@@ -4,9 +4,11 @@ run capistrano in console and send back output
 
 ## Need
 
-    npm install [`carrier`](https://github.com/pgte/carrier)
+[Carrier](https://github.com/pgte/carrier) for line by line output
+    
+    npm install carrier
 
-HUBOT_CAP - directory where the config files, [example.rb](https://github.com/pomeo/hubot-capistrano/example.rb)
+HUBOT_CAP - directory where the config files, [example.rb](https://github.com/pomeo/hubot-capistrano/blob/master/example.rb)
     
 ## Usage
 
