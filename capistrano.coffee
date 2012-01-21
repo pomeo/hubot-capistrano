@@ -1,7 +1,5 @@
 # run capistrano in console and send back output
 #
-# Currently all todos are added to the Inbox.
-#
 # Environment variables:
 #   HUBOT_CAP - directory where the config files, example https://github.com/pomeo/hubot-capistrano/example.rb
 #
