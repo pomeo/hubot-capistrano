@@ -4,9 +4,9 @@ run capistrano in console and send back output
 
 ## Need
 
-    $ npm install carrier
+    $ npm install [carrier](https://github.com/pgte/carrier)
 
-    HUBOT_CAP - directory where the config files, example https://github.com/pomeo/hubot-capistrano/example.rb
+HUBOT_CAP - directory where the config files, [example.rb](https://github.com/pomeo/hubot-capistrano/example.rb)
     
 ## Usage
 
@@ -14,4 +14,8 @@ run capistrano in console and send back output
     $ cap example deploy:update
     $ cap example -T
 
-     where 'example' HUBOT_CAP/example.rb
+where 'example' HUBOT_CAP/example.rb
+
+## Screenshot
+
+    ![screenshot](http://veloq.com/o/2E)
